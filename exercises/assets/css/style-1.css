@@ -53,6 +53,10 @@ select {
 
 /* ================= ENDS ================ */
 
+body {
+    background-color: lightcyan
+}
+
 
 /* Desktops */
 
@@ -74,24 +78,31 @@ select {
 h1 {
     font-size: 84px;
     text-align: center;
-    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     letter-spacing: -2px;
     margin-bottom: 32px;
+    color: blue;
 }
 
 h2 {
     font-size: 36px;
     margin-bottom: 4px;
+    color: blue;
 }
 
 h3 {
     font-size: 24px;
     margin-bottom: 4px;
+    color: blue;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
 }
 
 p {
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
+    color: darkslateblue;
 }
