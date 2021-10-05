@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero Block with Image</title>
     <meta name="description" content="A hero block with a background image and a tinted overlay.">
-
+    <link rel="preload" href="assets/img/business.jpg" as="image">
     <link rel="stylesheet" href="assets/css/hero-image.css">
 
 </head>
@@ -18,7 +18,7 @@
     <!-- hero block -->
     <header class="hero-block text-center">
 
-        <div class="hero-text-container">
+        <div class="hero-block-container">
             <h1 class="slide-in-bottom">Albert Camus</h1>
             <h2 class="slide-in-bottom">Creative Web Developer</h2>
         </div>
@@ -26,6 +26,8 @@
         <div class="hero-bg-media">
             <img src="assets/img/business.jpg" alt="sample background image">
         </div>
+
+        <div class="bg-overlay"></div>
 
     </header>
 
